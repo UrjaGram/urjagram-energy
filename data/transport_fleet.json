@@ -1,0 +1,10 @@
+{
+  "village_id": "IN-MH-NAG-KATLABODI",
+  "note": "ASSUMPTION: fleet is estimated, not counted. Replace with a vehicle count at the next village visit (aggregate counts only, no owner names).",
+  "vehicles": [
+    {"class": "tractor", "count": 25, "fuel": "diesel", "operating_days_per_year": 120, "litres_per_day": 20.0, "electrifiable": false},
+    {"class": "two_wheeler", "count": 150, "fuel": "petrol", "operating_days_per_year": 330, "km_per_day": 10.0, "km_per_litre": 40.0, "electrifiable": true, "ev_kwh_per_km": 0.03},
+    {"class": "auto_rickshaw", "count": 6, "fuel": "diesel", "operating_days_per_year": 300, "km_per_day": 60.0, "km_per_litre": 20.0, "electrifiable": true, "ev_kwh_per_km": 0.08},
+    {"class": "goods_vehicle", "count": 8, "fuel": "diesel", "operating_days_per_year": 200, "km_per_day": 50.0, "km_per_litre": 9.0, "electrifiable": false}
+  ]
+}

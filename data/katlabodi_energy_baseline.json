@@ -1,0 +1,49 @@
+{
+  "village_id": "IN-MH-NAG-KATLABODI",
+  "name": "Katlabodi Gram Panchayat",
+  "taluka": "Katol",
+  "district": "Nagpur",
+  "state": "Maharashtra",
+  "location": {"latitude": 21.2833, "longitude": 78.5833},
+  "source_notes": {
+    "survey": "Katlabodi Survey (VNIT Nagpur team visits, Sept-Oct 2026): 24/7 village supply, 8 h/day agricultural supply in shifts, ~1,000 livestock, 60-70 L/day milk sold locally",
+    "shared_with_water_module": "households, borewell count, pump HP and draw taken from UrjaGram/urjagram-aquagram-water data/katlabodi_baseline.json",
+    "assumptions": "Items marked ASSUMPTION are placeholders to be replaced by meter readings or the next village visit"
+  },
+  "households": 160,
+  "household_kwh_per_day": 2.0,
+  "household_kwh_per_day_note": "ASSUMPTION: rural Maharashtra average, to be checked against MSEDCL bills",
+  "agriculture": {
+    "borewells_count": 42,
+    "pump_hp": 5.0,
+    "required_pump_hours_per_day": 8.0,
+    "grid_supply_hours": [22, 23, 0, 1, 2, 3, 4, 5],
+    "grid_supply_note": "Farmer-KB-01 reports night shift 10 PM-6 AM this week; shifts rotate between night and day"
+  },
+  "drinking_water": {
+    "village_borewell_kw": 3.7,
+    "run_hours": [6, 7, 8, 17, 18],
+    "note": "ASSUMPTION: one 5 HP village pump, five hours a day"
+  },
+  "streetlights": {"count": 40, "watts_each": 15, "note": "ASSUMPTION: LED, 40 lights"},
+  "dairy": {
+    "milk_litres_per_day": 65.0,
+    "chilling_kwh_per_litre": 0.08,
+    "note": "ASSUMPTION: bulk chilling only; milk is currently sold locally"
+  },
+  "livestock": {
+    "animals": 1000,
+    "dung_tractor_loads_per_year": 150,
+    "tonnes_fresh_dung_per_load": 3.0,
+    "collectable_fraction": 0.4,
+    "biogas_m3_per_tonne_fresh_dung": 36.0,
+    "kwh_electric_per_m3_biogas": 1.8,
+    "kg_lpg_displaced_per_m3_biogas": 0.43,
+    "note": "ASSUMPTION: collectable fraction low because animals graze freely in forest during monsoon and winter"
+  },
+  "installed": {
+    "solar_kwp": 0.0,
+    "battery_kwh": 0.0,
+    "biogas_genset_kw": 0.0
+  }
+}

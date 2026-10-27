@@ -1,0 +1,13 @@
+{
+  "farmer_code": "Farmer-KB-01",
+  "village_id": "IN-MH-NAG-KATLABODI",
+  "status": "TO_CONFIRM: same partner family as the water module (shared pump facts). Replace if the energy partner family is different.",
+  "land_holding_acres": 3.5,
+  "irrigation_source": {
+    "type": "Single private borewell",
+    "pump_type": "Submersible electric",
+    "pump_hp": 5.0,
+    "grid_power_availability": "8 hours/day, night shift 10 PM-6 AM this week"
+  },
+  "energy_problem_to_confirm_with_family": "Pumping only at night; can a daytime solar window replace some night pumping, and what does the pump energy cost per season?"
+}
